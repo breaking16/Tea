@@ -419,6 +419,7 @@ body {
 @media (max-width: 360px) {
   .title{
     margin-bottom: 10px;
+    font-size: 24px;
   }
   .logo {
     margin-right: 50px;
@@ -455,5 +456,12 @@ body {
   }
   .assortment{
     margin-bottom: 80px;
+  }
+  .reviews__item{
+    flex-basis: 100%;
+  }
+  .reviews__item:last-child,
+  .reviews__item:first-child{
+    display: none;
   }
 }
