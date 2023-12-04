@@ -388,8 +388,29 @@ body {
   font-weight: 600;
 }
 
+.footer{
+  padding: 100px 0 20px;
+  background-color: #F7F2EA;
+}
 
+.footer__inner{
+  margin-bottom: 100px;
+}
 
+.footer__bottom{
+  display: flex;
+}
+
+.footer__copy{
+  margin-right: 192px;
+  font-size: 16px;
+}
+
+.partners-logo{
+  display: flex;
+  align-items: center;
+  gap: 0 20px;
+}
 
 
   
@@ -640,9 +661,9 @@ body {
   .main-blog__item-img{
     max-width: 230px;
   }
-  .mailing-list[
+  .mailing-list{
     padding: 50px 0;
-  ]
+  }
   .mailing-list__text{
     flex-basis: 100%;
     font-size: 13px;
@@ -738,11 +759,13 @@ body {
   .prioritise__title{
     font-size: 20px;
   }
-  .prioritise__text{
+  .prioritise__text{  
     font-size: 10px;
     font-weight: 400;
   }
   .prioritise__list{
-    gap: 40px 100px ;
+    gap: 40px 100px;
   }
+
+
 }
